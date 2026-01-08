@@ -7,7 +7,7 @@ class Produto:
     def _str_(self):
         return f"{self.nome} - R${self.preco:.2f} (Estoque: {self.estoque})"
 
-    def repor(self, quantidade: int)
+    def repor(self, quantidade: int):
         if (quantidade > 0):
             self.estoque += quantidade
 
